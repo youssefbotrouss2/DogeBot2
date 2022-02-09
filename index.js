@@ -213,7 +213,7 @@ dogexeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "916909137213@s.whatsapp.net"
+    const htod = "201289267791@s.whatsapp.net"
 
     
 
@@ -400,8 +400,8 @@ dogexeon.on('group-update', async (anu) => {
 	})
     dogexeon.on('chat-update', async (message) => {
         require('./XeonDoge.js')(dogexeon, message)
-        ownerNumber = ["916909137213@s.whatsapp.net","916909137213@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "916909137213@s.whatsapp.net"
+        ownerNumber = ["201289267791@s.whatsapp.net","201289267791@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "201289267791@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
