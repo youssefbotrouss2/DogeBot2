@@ -1,7 +1,7 @@
 {
-  "name": "Doge Bot",
+  "name": "YSF BOT",
   "version": "2.0.0",
-  "description": "Xeon Bot Inc.",
+  "description": "Youssef Bot Inc.",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "Xeon",
+  "author": "Youssef",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
