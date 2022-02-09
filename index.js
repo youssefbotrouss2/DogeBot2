@@ -141,11 +141,11 @@ const starts = async (dogexeon = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('\n> YT CHANNEL: YSFBOTV2 ','silver'))
+	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
 console.log(color('> GITHUB: DGXeon ','silver'))
-console.log(color('> WA NUMBER: +201289267791 ','silver'))
+console.log(color('> WA NUMBER: +916909137213 ','silver'))
 console.log(color('  Xeon Bot Inc. 2021','mediumseagreen'))
-	dogexeon.browserDescription = [ 'Subscribe YSF', 'ubuntu', '3.0' ]
+	dogexeon.browserDescription = [ 'Subscribe Xeon', 'ubuntu', '3.0' ]
 
 	dogexeon.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN THE QR'))
@@ -213,7 +213,7 @@ dogexeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "201289267791@s.whatsapp.net"
+    const htod = "916909137213@s.whatsapp.net"
 
     
 
@@ -223,7 +223,7 @@ dogexeon.on("group-update", async (anu) => {
 
     if (anu.announce == "false") {
 
-      teks = `- [ المجموعه اتفتحت ] -\n\n_الجروب اتفتح عن طريق الادمن_\n_الجروب اتفتح اتكلم برحتك_`;
+      teks = `- [ Group Opened ] -\n\n_The group has been opened by admin_\n_Now all members can send messages_`;
 
       dogexeon.sendMessage(metdata.id, teks, MessageType.text);
 
@@ -303,9 +303,9 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(ppUrl)
 
-				teks = `👤 *اهلا بيك* @${num.split('@')[0]}\n👤 *متنساش تشوف وصف المجموعه*`
+				teks = `🐶 *Hɪ* @${num.split('@')[0]}\n🐶 *Bɪᴏ* : *${thu.status}*\n🐶 *Mᴇᴍʙᴇʀs : ${memeg}*\n🐶 *Wᴇʟᴄᴏᴍᴇ Tᴏ ${mdata.subject}*\n🐶 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*`
 
-				sendButImage(anu.jid, teks, `YSF BOT`, img,but = [{buttonId:`getdescgc`, 
+				sendButImage(anu.jid, teks, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, img,but = [{buttonId:`getdescgc`, 
 
                buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -325,7 +325,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(ppUrl)
 
-				teks = `*مع الف سلامه * 👋\n@${num.split('@')[0]}\n*نأمل ألا يكون هناك عبء هنا بعد الآن* 👤`
+				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 𝙱𝚎 𝙱𝚞𝚛𝚍𝚎𝚗 𝙷𝚎𝚛𝚎 𝙰𝚗𝚢𝚖𝚘𝚛𝚎* 🐶`
 
 				sendButImage(anu.jid, teks, `YSF BOT`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -400,8 +400,8 @@ dogexeon.on('group-update', async (anu) => {
 	})
     dogexeon.on('chat-update', async (message) => {
         require('./XeonDoge.js')(dogexeon, message)
-        ownerNumber = ["201289267791@s.whatsapp.net","201289267791@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "201289267791@s.whatsapp.net"
+        ownerNumber = ["916909137213@s.whatsapp.net","916909137213@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "916909137213@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
